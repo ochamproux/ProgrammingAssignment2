@@ -1,8 +1,7 @@
 ## Put comments here that give an overall description of what your
 ## functions do
 
-## Write a short comment describing this function:
-## this function creates the list of 4 "basic" function get, set, getSolve 
+## This function creates the list of 4 "basic" function get, set, getSolve 
 ## and setSolve enabling to use the "special" matrix and its cache solve
 
 makeCacheMatrix <- function(x = matrix()) {
@@ -21,9 +20,9 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
-##this function is giving the cache of a "special" matrix if already stored
-##and calculating + storing it if not available
+## This function is returning the 'inverse' of a "special" matrix 
+## If already stored Then value stored in cache,
+## Else calculating, storing in cache and returning it
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
